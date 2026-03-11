@@ -13,7 +13,7 @@ class SuedwindAmbientika extends utils.Adapter {
     }
 
     async onReady() {
-        this.log.info("Südwind Ambientika v0.0.3: Sync-Modus & Signalstärke Fix.");
+        this.log.info("Südwind Ambientika v0.0.4: Security updates & ioBroker bot fixes");
         let interval = parseInt(this.config.refreshInterval) || 60;
         if (interval < 10) interval = 10;
 

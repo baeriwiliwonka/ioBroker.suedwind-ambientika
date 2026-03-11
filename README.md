@@ -54,6 +54,10 @@ Those values are read only for Slave devices.
 ## Changelog
 
 
+### 0.0.4
+* (baeriwiliwonka)
+- Security updates & Solved some issues from ioBroker-Bot
+
 ### 0.0.3
 * (baeriwiliwonka)
 - synchronized State names and state values, to ensure that the displayed names in the dropdown menu is the same than the required string for the API, this makes it easier when you want to create your own BlocklySkripts.

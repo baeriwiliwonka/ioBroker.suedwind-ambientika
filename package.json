@@ -1,6 +1,7 @@
 {
   "name": "iobroker.suedwind-ambientika",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "license": "MIT",
   "description": "Integration for Südwind Ambientika Smart decentral ventilation systems",
   "author": {
     "name": "baeriwiliwonka",
@@ -10,6 +11,7 @@
   "homepage": "https://github.com/baeriwiliwonka/ioBroker.suedwind-ambientika",
   "license": "MIT",
   "keywords": [
+    "ioBroker"
     "suedwind",
     "südwind",
     "ambientika",

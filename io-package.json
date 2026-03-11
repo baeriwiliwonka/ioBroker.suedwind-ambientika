@@ -1,22 +1,22 @@
 {
     "common": {
         "name": "suedwind-ambientika",
-        "version": "0.0.2",
+        "version": "0.0.4",
         "news": {
-            "0.0.2": {
-                "de": "Datenpunkte hinzugefügt, Master/Slave handling verbessert, reset Filter Möglichkeit - es wird empfohlen alle Objekte vor dem Update auf v0.0.2 zu löschen",
-                "en": "Added States, improved Master/Slave handling, possibility to reset the Filter - it is recommended to delete all objects before updating to v0.0.2"
+            "0.0.4": {
+                "de": "Sicherheitsupdates und einige ioBroker-Bot issues gelöst",
+                "en": "Security updates and fixed some ioBroker-Bot issues"
             }
         },
         "titleLang": {
             "en": "Südwind Ambientika Smart integration",
             "de": "Südwind Ambientika Smarte Integration",
             "ru": "Умная интеграция Südwind Ambientika",
-            "pt": "Integração inteligente Südwind Ambientika",
+            "pt": "Integração intelligente Südwind Ambientika",
             "nl": "Südwind Ambientika Slimme integratie",
             "fr": "Intégration intelligente Südwind Ambientika",
             "it": "Südwind Ambientika Integrazione intelligente",
-            "es": "Südwind Ambientika Integración inteligente",
+            "es": "Südwind Ambientika Integración intelligente",
             "pl": "Inteligentna integracja Südwind Ambientika",
             "uk": "Südwind Ambientika Smart інтеграція",
             "zh-cn": "南风 Ambientika 智能集成"
@@ -38,6 +38,7 @@
             "baeriwiliwonka <soerenmilimonka@gmx.de>"
         ],
         "keywords": [
+            "ioBroker",
             "suedwind",
             "südwind",
             "ambientika",
@@ -64,6 +65,13 @@
         "adminUI": {
             "config": "json"
         },
+        "protectedNative": [
+            "Password"
+        ],
+        "encryptedNative": [
+            "Password"
+        ],
+        "supportCustoms": false,
         "dependencies": [
             {
                 "js-controller": ">=6.0.11"
