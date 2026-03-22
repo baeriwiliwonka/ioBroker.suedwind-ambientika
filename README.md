@@ -54,6 +54,11 @@ Those values are read only for Slave devices.
 ## Changelog
 
 
+### 0.0.5
+* (baeriwiliwonka)
+- Fixed humidityLevel states (Dry/Normal/Moist)
+
+
 ### 0.0.4
 * (baeriwiliwonka)
 - Security updates & Solved some issues from ioBroker-Bot

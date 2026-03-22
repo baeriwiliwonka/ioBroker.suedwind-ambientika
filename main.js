@@ -13,7 +13,7 @@ class SuedwindAmbientika extends utils.Adapter {
     }
 
     async onReady() {
-        this.log.info("Südwind Ambientika v0.0.4: Security updates & ioBroker bot fixes");
+        this.log.info("Südwind Ambientika v0.0.5: Südwind Ambientika v0.0.5: humidity fix");
         let interval = parseInt(this.config.refreshInterval) || 60;
         if (interval < 10) interval = 10;
 
@@ -48,6 +48,7 @@ class SuedwindAmbientika extends utils.Adapter {
                     });
 
                     const d = statusRes.data;
+
                     if (d) {
                         const isMaster = (d.deviceRole === "Master");
                         
@@ -86,7 +87,10 @@ class SuedwindAmbientika extends utils.Adapter {
                                 type: "string", 
                                 role: "level.humidity", 
                                 write: isMaster, 
-                                states: { "Low": "Low", "Normal": "Normal", "High": "High" } 
+                                states: { 
+                                    "Dry": "Dry", 
+                                    "Normal": "Normal", 
+                                    "Moist": "Moist" }
                             },
                             { id: "lastOperatingMode", name: "Letzter Modus", type: "string", role: "state", write: false },
                             { id: "temperature", name: "Temperatur", type: "number", role: "value.temperature", unit: "°C", write: false },

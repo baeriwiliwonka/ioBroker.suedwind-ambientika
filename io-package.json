@@ -1,11 +1,11 @@
 {
     "common": {
         "name": "suedwind-ambientika",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "news": {
             "0.0.4": {
-                "de": "Sicherheitsupdates und einige ioBroker-Bot issues gelöst",
-                "en": "Security updates and fixed some ioBroker-Bot issues"
+                "de": "Fix für Feuchtigkeitsschwelle (Dry/Normal/Moist)",
+                "en": "Fixed humidityLevel states (Dry/Normal/Moist)"
             }
         },
         "titleLang": {
