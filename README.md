@@ -54,6 +54,10 @@ Those values are read only for Slave devices.
 ## Changelog
 
 
+
+### **WORK IN PROGRESS**
+- (ioBroker-Bot) Adapter requires admin >= 7.8.23 now.
+
 ### 0.0.7
 * (baeriwiliwonka)
 - Filter reset is now working
