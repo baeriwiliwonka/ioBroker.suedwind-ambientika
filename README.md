@@ -98,6 +98,7 @@ Those values are read only for Slave devices.
 - supports writing for mode, fanspeed and humidity_level
 - refresh intervall can be modified
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
 
 ## License
 MIT License
