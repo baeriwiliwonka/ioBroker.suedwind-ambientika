@@ -55,7 +55,7 @@ Those values are read only for Slave devices.
 
 
 ### **WORK IN PROGRESS**
-- (copilot) Adapter requires node.js >= 22 now
+- (ioBroker-Bot) Adapter requires admin >= 7.8.23 now.
 
 ### 0.0.7
 * (baeriwiliwonka)
