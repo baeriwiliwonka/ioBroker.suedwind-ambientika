@@ -53,6 +53,12 @@ Those values are read only for Slave devices.
 
 ## Changelog
 
+### 0.0.8
+* (baeriwiliwonka)
+- VIS pictures are stored permanently now (www-folder)
+
+### **WORK IN PROGRESS**
+- (ioBroker-Bot) Adapter requires admin >= 7.8.23 now.
 
 ### **WORK IN PROGRESS**
 - (ioBroker-Bot) Adapter requires admin >= 7.8.23 now.
