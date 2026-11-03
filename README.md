@@ -53,6 +53,12 @@ Those values are read only for Slave devices.
 
 ## Changelog
 
+### 0.0.8
+* (baeriwiliwonka)
+- VIS pictures are stored permanently now (www-folder)
+
+### **WORK IN PROGRESS**
+- (ioBroker-Bot) Adapter requires admin >= 7.8.23 now.
 
 ### 0.0.7
 * (baeriwiliwonka)
@@ -95,6 +101,7 @@ Those values are read only for Slave devices.
 - supports writing for mode, fanspeed and humidity_level
 - refresh intervall can be modified
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
 
 ## License
 MIT License
